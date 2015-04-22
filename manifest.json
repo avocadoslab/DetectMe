@@ -1,0 +1,10 @@
+{
+    "name": "BrowserActionExtension",
+    "version": "0.0.3",
+    "manifest_version": 2,
+    "content_scripts": [
+    	{
+      	"js": ["script.js"],
+    	}
+  	],
+}
