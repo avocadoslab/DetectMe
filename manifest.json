@@ -1,10 +1,9 @@
 {
     "name": "BrowserActionExtension",
-    "version": "0.0.3",
+    "version": "0.0.1",
     "manifest_version": 2,
-    "content_scripts": [
-    	{
-      	"js": ["script.js"],
-    	}
-  	],
+    "browser_action": {
+        "default_title": "That's the tool tip",
+        "default_popup": "index.html"
+    }
 }
